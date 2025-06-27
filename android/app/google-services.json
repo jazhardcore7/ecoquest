@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "224942158128",
+    "project_id": "ecoquest-f22e4",
+    "storage_bucket": "ecoquest-f22e4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:224942158128:android:844d1d43d5ef088adb18f5",
+        "android_client_info": {
+          "package_name": "com.example.ecoquest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpRK410BHZpiJ2duq6vnajh-60ypoNKC4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
