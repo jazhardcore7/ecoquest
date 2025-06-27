@@ -112,24 +112,10 @@ flutter run
 4. **Naik Level** – Kumpulkan XP dan buka lencana.  
 5. **Pantau Peringkat** – Lihat posisi Anda di leaderboard.
 
-### Pedoman Kontribusi:
-
-Kami terbuka untuk kontribusi! Caranya:
-
+### 🔽Download Link :
 ```bash
-# 1. Fork repositori
-# 2. Buat branch baru
-git checkout -b fitur/NamaFitur
-
-# 3. Commit perubahan
-git commit -m 'Menambahkan Fitur X'
-
-# 4. Push ke branch Anda
-git push origin fitur/NamaFitur
-
-# 5. Buka Pull Request
+https://github.com/jazhardcore7/ecoquest/releases/tag/v0.0.5
 ```
-
 ---
 
 ## 🔥 Penggunaan Firebase (Firebase Usage)
