@@ -1,102 +1,154 @@
-EcoQuest: Misi Hijau, Aksi Nyata 🌍
-Sebuah aplikasi mobile gamifikasi untuk mengubah kebiasaan kecil menjadi aksi nyata bagi iklim. Selesaikan misi, dapatkan poin, dan jadilah pahlawan bagi bumi!
 
-🌳 Ringkasan Proyek (Project Overview)
-EcoQuest adalah aplikasi mobile yang dibangun menggunakan Flutter untuk mengatasi masalah apatisme terhadap isu perubahan iklim. Aplikasi ini mengubah tindakan ramah lingkungan sehari-hari menjadi sebuah "Quest" atau misi yang seru dan menantang. Pengguna diajak untuk menyelesaikan misi seperti mengurangi penggunaan plastik, menghemat energi, dan menggunakan transportasi berkelanjutan.
+# EcoQuest: Misi Hijau, Aksi Nyata 🌍
 
-Setiap misi yang diselesaikan akan memberikan Experience Points (XP) yang dapat meningkatkan level pengguna dan memberinya lencana (badges) sebagai bentuk pengakuan. Dengan papan peringkat (leaderboard), pengguna dapat berkompetisi secara sehat dengan teman-temannya, menciptakan rasa komunitas dan motivasi kolektif untuk membuat perubahan positif bagi planet kita.
+Sebuah aplikasi mobile gamifikasi untuk mengubah kebiasaan kecil menjadi aksi nyata bagi iklim.  
+**Selesaikan misi, dapatkan poin, dan jadilah pahlawan bagi bumi!**
 
-🌱 SDG yang Dipilih & Alasan (Chosen SDG & Justification)
-Proyek ini secara langsung berfokus pada SDG 13: Penanganan Perubahan Iklim (Climate Action).
+---
 
-Alasan: Perubahan iklim adalah salah satu tantangan terbesar yang dihadapi generasi kita. Namun, skala masalahnya yang masif seringkali membuat individu merasa bahwa tindakan mereka tidak berarti. EcoQuest hadir untuk mematahkan pandangan tersebut dengan:
+## 🌳 Ringkasan Proyek (Project Overview)
 
-Memberikan Aksi Konkret: Menyediakan panduan langkah demi langkah tentang apa yang bisa dilakukan individu.
+**EcoQuest** adalah aplikasi mobile yang dibangun menggunakan Flutter untuk mengatasi masalah apatisme terhadap isu perubahan iklim.  
+Aplikasi ini mengubah tindakan ramah lingkungan sehari-hari menjadi sebuah "Quest" atau misi yang seru dan menantang.
 
-Membangun Kebiasaan: Gamifikasi membantu mengubah aksi yang tadinya terasa berat menjadi kebiasaan yang menyenangkan.
+Pengguna diajak untuk menyelesaikan misi seperti:
 
-Meningkatkan Kesadaran: Menunjukkan bahwa setiap aksi kecil, jika dilakukan bersama-sama, memiliki dampak yang signifikan.
+- Mengurangi penggunaan plastik  
+- Menghemat energi  
+- Menggunakan transportasi berkelanjutan
 
-Aplikasi ini juga secara tidak langsung mendukung:
+Setiap misi yang diselesaikan akan memberikan **Experience Points (XP)** untuk:
 
-SDG 11: Kota dan Permukiman Berkelanjutan
+- Meningkatkan level pengguna  
+- Mendapatkan **lencana (badges)** sebagai bentuk pengakuan  
+- Berkompetisi melalui **leaderboard** untuk menciptakan komunitas dan motivasi kolektif
 
-SDG 12: Konsumsi dan Produksi yang Bertanggung Jawab
+---
 
-SDG 14 & 15: Ekosistem Lautan dan Daratan
+## 🌱 SDG yang Dipilih & Alasan (Chosen SDG & Justification)
 
-🛠️ Tumpukan Teknologi (Tech Stack)
-Framework: Flutter
+Proyek ini secara langsung berfokus pada:
 
-Bahasa Pemrograman: Dart
+### 🎯 SDG 13: Penanganan Perubahan Iklim (Climate Action)
 
-Arsitektur: MVVM (Model-View-ViewModel)
+**Alasan:**
+Perubahan iklim adalah tantangan besar yang sering membuat individu merasa tidak berdaya. EcoQuest hadir untuk mematahkan pandangan tersebut dengan cara:
 
-State Management: Provider
+- **Memberikan Aksi Konkret**  
+  Menyediakan panduan langkah demi langkah bagi individu.
 
-Backend & Database: Firebase (Backend as a Service)
+- **Membangun Kebiasaan**  
+  Gamifikasi membuat aksi terasa menyenangkan dan berkelanjutan.
 
-UI: Material Design 3
+- **Meningkatkan Kesadaran**  
+  Menunjukkan bahwa aksi kecil berdampak besar jika dilakukan bersama.
 
-🚀 Pengaturan & Instalasi (Setup & Installation)
-Untuk menjalankan proyek ini di lingkungan lokal Anda, ikuti langkah-langkah berikut:
+#### Dukungan Tidak Langsung terhadap SDG Lain:
 
-Clone Repositori
+- **SDG 11:** Kota dan Permukiman Berkelanjutan  
+- **SDG 12:** Konsumsi dan Produksi yang Bertanggung Jawab  
+- **SDG 14 & 15:** Ekosistem Lautan dan Daratan
 
+---
+
+## 🛠️ Tumpukan Teknologi (Tech Stack)
+
+| Komponen           | Teknologi                     |
+|--------------------|-------------------------------|
+| Framework          | Flutter                       |
+| Bahasa Pemrograman | Dart                          |
+| Arsitektur         | MVVM (Model-View-ViewModel)   |
+| State Management   | Provider                      |
+| Backend & Database | Firebase (BaaS)               |
+| UI                 | Material Design 3             |
+
+---
+
+## 🚀 Pengaturan & Instalasi (Setup & Installation)
+
+### 1. Clone Repositori
+
+```bash
 git clone https://github.com/jazhardcore7/ecoquest.git
 cd ecoquest
+```
 
-Siapkan Proyek Firebase
+### 2. Siapkan Proyek Firebase
 
-Buat proyek baru di Firebase Console.
+- Buat proyek baru di [Firebase Console](https://console.firebase.google.com/)
+- Aktifkan:
+  - **Authentication** (metode Email/Password)
+  - **Cloud Firestore**
+- Tambahkan aplikasi Android dengan `package name`:
+  ```
+  com.jazdev.ecoquest
+  ```
+- Unduh `google-services.json` dan tempatkan di:
+  ```
+  android/app/
+  ```
 
-Aktifkan layanan Authentication (dengan metode Email/Password) dan Cloud Firestore.
+### 3. Instal Dependensi
 
-Tambahkan aplikasi Android baru ke proyek Firebase Anda dengan package name: com.jazdev.ecoquest.
-
-Unduh file konfigurasi google-services.json dan letakkan di dalam folder android/app/.
-
-Instal Dependensi
-
+```bash
 flutter pub get
+```
 
-Jalankan Aplikasi
+### 4. Jalankan Aplikasi
 
+```bash
 flutter run
+```
 
-🎮 Cara Penggunaan & Kontribusi
-Cara Penggunaan Aplikasi:
+---
 
-Daftar/Login: Buat akun baru atau masuk dengan akun yang sudah ada.
+## 🎮 Cara Penggunaan & Kontribusi
 
-Pilih Misi: Jelajahi "Papan Misi" dan pilih tantangan yang ingin Anda selesaikan.
+### Cara Penggunaan Aplikasi:
 
-Selesaikan Misi: Lakukan aksi di dunia nyata dan tekan tombol "Selesaikan" di aplikasi untuk mendapatkan XP.
+1. **Daftar/Login** – Buat akun baru atau masuk dengan akun Anda.  
+2. **Pilih Misi** – Telusuri papan misi dan pilih tantangan.  
+3. **Selesaikan Misi** – Lakukan aksi dan tekan tombol "Selesaikan".  
+4. **Naik Level** – Kumpulkan XP dan buka lencana.  
+5. **Pantau Peringkat** – Lihat posisi Anda di leaderboard.
 
-Naik Level: Kumpulkan XP untuk meningkatkan level dan membuka lencana baru.
+### Pedoman Kontribusi:
 
-Pantau Peringkat: Lihat posisi Anda di antara pejuang iklim lainnya di "Papan Peringkat".
+Kami terbuka untuk kontribusi! Caranya:
 
-Pedoman Kontribusi:
-Kami sangat terbuka untuk kontribusi! Jika Anda ingin membantu mengembangkan EcoQuest, silakan:
+```bash
+# 1. Fork repositori
+# 2. Buat branch baru
+git checkout -b fitur/NamaFitur
 
-Fork repositori ini.
+# 3. Commit perubahan
+git commit -m 'Menambahkan Fitur X'
 
-Buat branch baru untuk fitur Anda (git checkout -b fitur/NamaFitur).
+# 4. Push ke branch Anda
+git push origin fitur/NamaFitur
 
-Lakukan commit untuk perubahan Anda (git commit -m 'Menambahkan Fitur X').
+# 5. Buka Pull Request
+```
 
-Push ke branch Anda (git push origin fitur/NamaFitur).
+---
 
-Buka Pull Request.
+## 🔥 Penggunaan Firebase (Firebase Usage)
 
-🔥 Penggunaan Firebase (Firebase Usage)
-EcoQuest menggunakan Firebase sebagai backend untuk mempercepat pengembangan:
+**EcoQuest** menggunakan Firebase sebagai backend untuk mempercepat proses pengembangan.
 
-Firebase Authentication: Menangani semua proses registrasi dan login pengguna secara aman.
+### Fitur Firebase:
 
-Cloud Firestore: Digunakan sebagai database NoSQL untuk menyimpan semua data aplikasi, dengan struktur koleksi sebagai berikut:
+- **Firebase Authentication**  
+  Untuk registrasi dan login yang aman.
 
-users: Menyimpan data profil setiap pengguna (nama, email, total XP, level, dll).
+- **Cloud Firestore**  
+  Menyimpan data dengan struktur NoSQL.
 
-quests: Berisi daftar semua misi yang tersedia di aplikasi (judul, deskripsi, poin XP, kategori).
+#### Struktur Koleksi:
+
+- `users`: Data profil pengguna (nama, email, total XP, level, dll)  
+- `quests`: Daftar misi (judul, deskripsi, poin XP, kategori)
+
+---
+
+> Made with 💚 for a better planet.
