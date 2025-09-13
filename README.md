@@ -11,8 +11,7 @@
 - [X] Mobile App on GitHub Repository (without publishing)
 
 **Justification:**
-Saya memilih opsi ini untuk fokus sepenuhnya pada pengembangan aplikasi yang berkualitas tinggi, kaya fitur, dan stabil. Dengan menghindari proses publikasi ke Play Store, saya dapat mengalokasikan lebih banyak waktu untuk menyempurnakan arsitektur, mengimplementasikan fitur-fitur kompleks, dan memastikan pengalaman pengguna yang baik, yang merupakan inti dari pembelajaran pada proyek akhir ini.
-
+Saya memilih opsi ini karena dengan memilih ini diharapkan bisa mengalokasikan effort agar pengembangan aplikasi dan fitur-fiturnya
 ---
 
 ### 3. Problem Statement & SDG Alignment
